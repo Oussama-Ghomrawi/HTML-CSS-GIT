@@ -1,1 +1,31 @@
 /* Add your own CSS code below */
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 55px;
+  }
+}
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+  }
+  .view-list__item {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+article {
+  max-width: 50em;
+  margin: auto;
+  line-height: 20px;
+}
